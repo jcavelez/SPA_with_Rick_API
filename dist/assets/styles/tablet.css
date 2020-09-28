@@ -1,0 +1,13 @@
+@media (min-width: 600px) {
+
+
+	/* ------------------------------------ */
+	.character-detailed {
+		display: flex;
+
+		width: 90%;
+	}
+	.character-detailed__image {
+		height: 100%;
+	}
+}
