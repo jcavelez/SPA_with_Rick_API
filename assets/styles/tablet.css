@@ -1,0 +1,28 @@
+@media (min-width: 600px) {
+	.character-card {
+		margin: 1.0rem 1.0rem;
+	}
+	/* ------------------------------------ */
+	.characters {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.character-inner {
+		min-width: 60.0rem;
+		max-width: 70.0rem;
+	}
+	.character-detailed {
+		display: flex;
+		width: 90%;
+		
+	}
+	.character-detailed__cover {
+		height: 100%;
+		width: 50%;
+	}
+	.character-detailed__data {
+		padding-left: 1.5rem;
+	}
+}
