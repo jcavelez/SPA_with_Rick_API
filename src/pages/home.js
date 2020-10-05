@@ -1,9 +1,12 @@
 import getData from '../utils/getData'
+import getHash from '../utils/getHash'
 
+const API = 'https://rickandmortyapi.com/api/character'
 
 async function home (){
-	const API = 'https://rickandmortyapi.com/api/character'
-	const characters = await getData(API)
+	const page = getHash()
+	const url = API.concat(page)
+	const characters = await getData(url)
 	const view = `
 		
 	<div class="characters">

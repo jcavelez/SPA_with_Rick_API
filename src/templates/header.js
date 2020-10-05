@@ -5,6 +5,7 @@ const header = () => {
 			<a href="/">
 				<img src="assets/logo_RickSanchez_2569366.png" alt="logo rick" srcset="">
 			</a>
+			<span>Personajes de Rick & Morty</span>
 		</div>
 		<nav class="header-nav">
 			<li>

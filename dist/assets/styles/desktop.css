@@ -1,0 +1,11 @@
+@media (min-width: 1000px) {
+
+
+	/* ------------------------------------ */
+	
+	.character-inner {
+		min-width: 50.0rem;
+		max-width: 70.0rem;
+	}
+	
+}

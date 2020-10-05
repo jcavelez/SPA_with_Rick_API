@@ -3,7 +3,11 @@ function resolveRoutes(route) {
 		let validRoute = route === '/' ? route : '/:id'
 		return validRoute
 	}
-	return route // por ej about
+	else {
+		let validRoute = route.startsWith('?page=') ? '/:page' : route
+		return validRoute
+	}
+	return route // por ej about o ?page=9
 }
 
 export default resolveRoutes
